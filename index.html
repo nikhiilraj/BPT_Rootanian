@@ -489,9 +489,9 @@ footer{background:#0a1050;padding:40px 0}
   <a href="#ips" onclick="closeDrawer()">IPs</a>
   <a href="#kpis" onclick="closeDrawer()">KPIs</a>
   <a href="#why" onclick="closeDrawer()">Why Us</a>
-  <a href="">
+  <!-- <a href="">
     <button class="drawer-cta" onclick="closeDrawer()">Get Full Proposal</button>
-  </a>
+  </a> -->
 </div>
 
 
@@ -507,23 +507,23 @@ footer{background:#0a1050;padding:40px 0}
       <text x="17" y="27" text-anchor="middle" fill="#F06623" font-size="8" font-family="Arial Black" font-weight="900">20</text>
     </svg>
     <span class="outfit">Bengal <em>Pro T20</em></span>
-    <div style="display: flex; align-items: center; gap: 20px;">
-        <a href="https://drive.google.com/drive/folders/1sRcKyH3BDN3B2bC4q8RPx3F_BjFtwNeT?usp=sharing" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; background-color: var(--n); padding: 8px 18px; border-radius: 10px; text-decoration: none; transition: transform 0.2s ease;">
-          <img src="rootanian logo (1).png" alt="Rootanian Logo" style="height: 40px; width: auto; object-fit: contain;">
+    <div style="display: flex; align-items: flex-start; gap: 10px;">
+        <a href="https://drive.google.com/drive/folders/1sRcKyH3BDN3B2bC4q8RPx3F_BjFtwNeT?usp=sharing" target="_blank" style="display: inline-flex; align-items: center; justify-content: center;">
+          <img src="rootanian sports black logo.png" alt="Rootanian Logo" style="height: 180px; width: auto; object-fit: contain;">
         </a>
 
-        <span style="font-family: 'Outfit', sans-serif; font-size: 1.6rem; font-weight: 900; color: var(--o); text-transform: uppercase; letter-spacing: 1.5px; white-space: nowrap;">
+        <!-- <span style="font-family: 'Outfit', sans-serif; font-size: 1.6rem; font-weight: 900; color: var(--o); text-transform: uppercase; letter-spacing: 1.5px; white-space: nowrap;">
               - By Rootanian
-        </span>
+        </span> -->
     </div>
    </a>
   <div class="nav-links">
     <a href="#opportunity">The Opportunity</a>
     <a href="#engine">Strategy</a>
     <a href="#ips">IPs</a>
-    <a href="#kpis">KPIs</a>
+    <!-- <a href="#kpis">KPfs</a> -->
     <a href="#why">Why Us</a>
-    <button class="btn-cta">Get Full Proposal</button>
+    <!-- <button class="btn-cta">Get Full Proposal</button> -->
   </div>
   <button class="ham-btn" id="hamBtn" aria-label="Open navigation" onclick="toggleDrawer()"><span></span><span></span><span></span></button>
 </nav>
@@ -558,12 +558,12 @@ footer{background:#0a1050;padding:40px 0}
         </div>
         <div class="proof-sep"></div>
         <div class="proof-item">
-          <span class="proof-num outfit" style="color:#F06623">150K</span>
-          <span class="proof-lbl">12-week target</span>
+          <span class="proof-num outfit" style="color:#F06623">~60K</span>
+          <span class="proof-lbl">24-week target</span>
         </div>
         <div class="proof-sep"></div>
         <div class="proof-item">
-          <span class="proof-num outfit">15–20×</span>
+          <span class="proof-num outfit">5–7×</span>
           <span class="proof-lbl">Sponsor ROI multiplier</span>
         </div>
       </div>
@@ -947,91 +947,15 @@ footer{background:#0a1050;padding:40px 0}
 </section>
 
 <!-- ═══════════════ KPIs ═══════════════ -->
-<section id="kpis">
-  <div class="container">
-    <div style="margin-bottom:48px" class="reveal">
-      <p class="section-label">The Numbers</p>
-      <h2 class="display-lg">Measurable outcomes.<br/><span class="orange">Every single week.</span></h2>
-    </div>
 
-    <div class="kpi-top reveal">
-      <div class="kpi-card">
-        <div class="kpi-current">Instagram followers now</div>
-        <div class="kpi-val outfit" id="kpi-ig">40K</div>
-        <div class="kpi-target">150K+ in 12 weeks</div>
-        <div class="kpi-bar"><div class="kpi-bar-fill" style="width:0%" data-w="27"></div></div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-current">YouTube subscribers now</div>
-        <div class="kpi-val outfit" id="kpi-yt">5K</div>
-        <div class="kpi-target">25K+ in 12 weeks</div>
-        <div class="kpi-bar"><div class="kpi-bar-fill" style="width:0%" data-w="20"></div></div>
-      </div>
-      <div class="kpi-card highlight">
-        <div class="kpi-current">Engagement rate (target)</div>
-        <div class="kpi-val outfit">5%</div>
-        <div class="kpi-target">vs ~1.5% today</div>
-        <div class="kpi-bar"><div class="kpi-bar-fill" style="width:0%;background:#0C1464" data-w="100"></div></div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-current">Total content pieces</div>
-        <div class="kpi-val outfit" id="kpi-cp">400+</div>
-        <div class="kpi-target">Across all platforms</div>
-      </div>
-    </div>
-
-    <div class="charts-row reveal">
-      <!-- Chart 1: Follower Growth -->
-      <div class="chart-box">
-        <div class="chart-title outfit">Projected follower growth</div>
-        <div class="chart-sub">Instagram — 6-month projection after Rootanian engagement</div>
-        <div style="position:relative;height:240px;margin-top:8px">
-          <canvas id="growthChart" role="img" aria-label="Area chart showing Instagram follower growth from 40K to 150K over 6 months">Follower data: Now 40K, Month 1 62K, Month 2 88K, Month 3 118K, Month 4 135K, Month 5 148K, Month 6 150K+</canvas>
-        </div>
-      </div>
-      <!-- Chart 2: Engagement Rate -->
-      <div class="chart-box">
-        <div class="chart-title outfit">Engagement rate comparison</div>
-        <div class="chart-sub">Industry average vs BPT20 current vs target</div>
-        <div style="position:relative;height:240px;margin-top:8px">
-          <canvas id="erChart" role="img" aria-label="Bar chart comparing engagement rates: Industry avg 1.2%, BPT20 current 1.5%, BPT20 target 4.8%">Engagement rates: Industry 1.2%, BPT20 now 1.5%, BPT20 target 4.8%</canvas>
-        </div>
-      </div>
-    </div>
-
-    <div style="margin-top:24px" class="reveal d2">
-      <table class="kpi-table">
-        <thead>
-          <tr>
-            <th>Metric</th>
-            <th>Current state</th>
-            <th>3-month target</th>
-            <th>Stretch goal</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td class="m-name">Instagram Followers</td><td class="m-cur">40K</td><td class="m-tgt">100K+</td><td class="m-str">150K+</td></tr>
-          <tr><td class="m-name">YouTube Subscribers</td><td class="m-cur">5K</td><td class="m-tgt">20K</td><td class="m-str">30K+</td></tr>
-          <tr><td class="m-name">Avg. Engagement Rate (IG)</td><td class="m-cur">~1.5%</td><td class="m-tgt">3%+</td><td class="m-str">5%+</td></tr>
-          <tr><td class="m-name">Reels Views (per viral reel)</td><td class="m-cur">—</td><td class="m-tgt">500K+</td><td class="m-str">1M+</td></tr>
-          <tr><td class="m-name">Match-day story views</td><td class="m-cur">—</td><td class="m-tgt">20K+ / match</td><td class="m-str">50K+</td></tr>
-          <tr><td class="m-name">UGC / Fan reposts / week</td><td class="m-cur">—</td><td class="m-tgt">20+</td><td class="m-str">50+</td></tr>
-          <tr><td class="m-name">Total content pieces (3 months)</td><td class="m-cur">—</td><td class="m-tgt">400+</td><td class="m-str">600+</td></tr>
-          <tr><td class="m-name">Minimum viral reels (100K+ views)</td><td class="m-cur">—</td><td class="m-tgt">3 reels</td><td class="m-str">7+ reels</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-
-<!-- ═══════════════ WHY ROOTANIAN═══════════════ -->
-<section id="why-rootanian" style="padding: 5rem 2rem; background-color: var(--ow);">
+<!-- ═══════════════ WHY ROOTANIAN══════════════ -->
+<section id="why" style="padding: 5rem 2rem; background-color: var(--ow);">
   <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
     
     <div style="margin-bottom: 2.5rem; display: flex; flex-direction: column; align-items: center; justify-content: center;">
       <span style="font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px;">Strategy Presented By</span>
-      <div style="background-color: var(--n); padding: 25px 45px; border-radius: 16px; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; box-shadow: 0 10px 30px rgba(12, 20, 100, 0.15);">
-          <img src="rootanian logo (1).png" alt="Rootanian Logo" style="height: 80px; width: auto; object-fit: contain;">
+      <div padding: 25px 45px; border-radius: 16px; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; box-shadow: 0 10px 30px rgba(12, 20, 100, 0.15);">
+          <img src="rootanian sports black logo.png" alt="Rootanian Logo" style="height: 210px; width: auto; object-fit: contain;">
       </div>
       <h2 style="font-size: 2.5rem; font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--n);">Why <span style="color: var(--o);">Rootanian?</span></h2>
     </div>
@@ -1059,7 +983,7 @@ footer{background:#0a1050;padding:40px 0}
     </div>
 
     <div style="margin-top: 4rem;">
-      <a href="https://drive.google.com/drive/folders/1sRcKyH3BDN3B2bC4q8RPx3F_BjFtwNeT?usp=sharing" target="_blank" style="display: inline-block; background-color: var(--o); color: #fff; padding: 1rem 2.5rem; border-radius: 50px; font-weight: 600; font-family: 'Inter', sans-serif; text-decoration: none; font-size: 1.1rem; box-shadow: 0 8px 15px rgba(240, 102, 35, 0.3); transition: transform 0.2s ease;">
+      <a href="https://drive.google.com/drive/folders/1sRcKyH3BDN3B2bC4q8RPx3F_BjFtwNeT" target="_blank" style="display: inline-block; background-color: var(--o); color: #fff; padding: 1rem 2.5rem; border-radius: 50px; font-weight: 600; font-family: 'Inter', sans-serif; text-decoration: none; font-size: 1.1rem; box-shadow: 0 8px 15px rgba(240, 102, 35, 0.3); transition: transform 0.2s ease;">
         Explore Rootanian's Work & Concepts
       </a>
     </div>
